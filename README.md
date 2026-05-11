@@ -47,7 +47,6 @@ python bench_grid.py
 
 
 
-```
 3. **Генерация финального HTML-отчета (Сравнение 5 оптимизаторов):**
    ```bash
    python bench_final.py
@@ -96,7 +95,7 @@ training:
 
 ## Авторы
 
-Проект разработан в рамках курса MIT:
+Проект разработан в рамках курса ФПМИ МФТИ:
 
 * Вероника Войтещук (`voiteshchuk.vv@phystech.edu`)
 * Артём Лещинский (`leshchinskii.av@phystech.edu`)
