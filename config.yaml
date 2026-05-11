@@ -1,0 +1,26 @@
+experiment_name: "basic_quadratic_test"
+seed: 42
+device: "cpu"
+
+problem:
+  name: "quadratic"
+  condition_number: 100
+  dimensions: 2
+
+optimizers:
+  - name: "SGD"
+    params:
+      lr: 0.01
+      momentum: 0.9
+  - name: "Adam"
+    params:
+      lr: 0.1
+      betas: [0.9, 0.999]
+
+training:
+  iterations: 100
+  log_interval: 5
+
+output:
+  log_format: "csv"
+  save_dir: "./results/basic_test/"

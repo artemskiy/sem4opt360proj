@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Результаты бенчмарков (логи, графики)
+results/
+
+# Виртуальные окружения (на всякий случай)
+venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
