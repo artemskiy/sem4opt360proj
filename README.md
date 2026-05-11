@@ -34,10 +34,7 @@ conda activate optibench
 1. **Базовый тест (2D функции):**
 ```bash
 python bench_basic.py
-
 ```
-
-
 2. **Перебор гиперпараметров (Grid Search для MNIST):**
 ```bash
 python bench_grid.py
@@ -50,9 +47,6 @@ python bench_grid.py
 3. **Генерация финального HTML-отчета (Сравнение 5 оптимизаторов):**
    ```bash
    python bench_final.py
-
-```
-
 ## Пример конфигурации (config.yaml)
 
 ```yaml
